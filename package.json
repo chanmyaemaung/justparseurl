@@ -1,0 +1,30 @@
+{
+  "name": "justparseurl",
+  "version": "1.0.0",
+  "description": "A utility for parsing URLs in JavaScript and TypeScript.",
+  "main": "dist/justparseurl.js",
+  "module": "dist/justparseurl.mjs",
+  "typings": "typings/index.d.ts",
+  "browser": {
+    "dist/justparseurl.min.js": "dist/justparseurl.browser.min.js",
+    "dist/justparseurl.mjs": "dist/justparseurl.browser.mjs"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "justparseurl",
+    "chanid",
+    "chanlay",
+    "chenlay",
+    "chanmyaemaung"
+  ],
+  "author": "Chen Lay <mr.chenlay@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^2.56.3",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.3.2"
+  }
+}
