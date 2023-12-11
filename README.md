@@ -66,7 +66,7 @@ console.log(urlInstance.);
 ### Include the script in your HTML file:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/justparseurl@1.0.0/dist/justparseurl.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/justparseurl@1.0.2/dist/justparseurl.min.js"></script>
 
 <script>
   const urlInstance = new JustParseUrl('https://example.com/path?query=value');
