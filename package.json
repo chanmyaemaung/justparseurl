@@ -1,6 +1,6 @@
 {
   "name": "justparseurl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility for parsing URLs in JavaScript and TypeScript.",
   "main": "dist/justparseurl.js",
   "module": "dist/justparseurl.mjs",
